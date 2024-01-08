@@ -205,12 +205,14 @@ img {
   margin-bottom: 10px;
 }
 .location-item {
-  padding-left: 2px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
   color: #fff;
+}
+.position-icon {
+  padding-left: 3px;
 }
 .contact-link {
   text-decoration: none;
