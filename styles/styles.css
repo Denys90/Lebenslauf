@@ -208,6 +208,7 @@ img {
   margin-bottom: 10px;
 }
 .location-item {
+  padding-left: 3px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -215,7 +216,7 @@ img {
   color: #fff;
 }
 .position-icon {
-  padding-left: 3px;
+  padding-left: 6px;
 }
 .contact-link {
   text-decoration: none;
