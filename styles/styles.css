@@ -7,6 +7,10 @@
   width: 1200px;
   margin: 0 auto;
 }
+img {
+  margin: 0;
+  padding: 0;
+}
 
 .main-content {
   display: flex;
@@ -194,12 +198,14 @@
 }
 /* Сайд бар */
 .location-list {
-  display: block;
+  display: inline-block;
+  justify-content: start;
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
 }
 .location-item {
+  padding-left: 2px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -214,6 +220,17 @@
   color: #fff;
 }
 .contact-link:hover {
+  color: #fb6d3a;
+}
+.contact-phone {
+  padding-left: 3px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.contact-phone:hover {
   color: #fb6d3a;
 }
 .address {
@@ -236,4 +253,10 @@
 }
 .social-item:hover {
   transform: scale(1.1);
+}
+.location-text {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #fff;
 }
