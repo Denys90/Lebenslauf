@@ -46,7 +46,7 @@ h5 {
 }
 
 .projects-item {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -54,8 +54,8 @@ h5 {
   color: #000000;
   cursor: pointer;
 }
-.projects-item:nth-last-child(1) {
-  padding-bottom: 0;
+.projects-item:last-of-type(1) {
+  margin-bottom: 0;
 }
 
 .project-link {
